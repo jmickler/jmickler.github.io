@@ -1,0 +1,52 @@
+section, footer {
+    padding: 50px;
+}
+#landing {
+    margin-top: 10px;
+    background-image: url(../img/1500x500.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100%;
+}
+#landing:hover {
+    background-image: url(../img/1500x500.jpeg);
+    opacity:0.5;
+}
+html, body {
+    height: 100%;
+}
+#landing img {
+    width: 300px;
+    margin: 30px 10px 20px 10px;
+}
+#landing p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#landing a, #donate a {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    border: white 1px solid;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+#donate a {
+    color: black;
+}
+/*who-we-are*/
+#who-we-are, #programs {
+    background-color: #F2F2F0;
+}
+#who-we-are p {
+    font-size: 20px;
+}
+#who-we-are img {
+    width: 120%;
+}
+
+
+

@@ -1,0 +1,252 @@
+section, footer {
+    padding: 30px;
+}
+#landing {
+    margin-top: 50px;
+    background-image: url(../img/1500x500.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    color: #0066CC;
+}
+#landing img {
+    width: 250px;
+    margin: 20px;
+    border-radius: 100%;
+}
+#landing img {
+    animation-duration: 5s;
+    animation-name: color1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes color1 {
+    from {background-color: none;
+    }
+    to {
+        background-color: black;
+    }
+}
+#landing p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 70px;
+}
+#landing a, #donate a {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border: #0066CC 10px solid;
+    text-decoration: none;
+    color: white;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 100%;
+} 
+#donate a {
+    color: white;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+}
+#donate a:nth-child(2) {
+    padding: 60px 10px;
+}
+/*who-we-are*/
+#who-we-are, #programs {
+    background-color: #F2F2F0;
+}
+#who-we-are p {
+    font-size: 20px;
+}
+#who-we-are img:first-child {
+    width: 50px;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-name: width1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes width1 {
+    from {width: 50px;
+    }
+    to {
+        width: 100px;
+    }
+}
+#who-we-are img:nth-child(2) {
+    width: 50px;
+    animation-duration: 5s;
+    animation-name: width2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+@keyframes width2 {
+    from {width: 50px;
+    }
+    to {
+        width: 100px;
+    }
+}
+#who-we-are img:nth-child(4) {
+    width: 50px;
+    animation-duration: 5s;
+    animation-name: width3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+@keyframes width3 {
+    from {width: 50px;
+    }
+    to {
+        width: 100px;
+    }
+}
+#who-we-are img:nth-child(5) {
+    width: 50px;
+    animation-duration: 5s;
+    animation-name: width4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 8s;
+}
+@keyframes width4 {
+    from {
+        width: 50px;
+    }
+    to {
+        width: 100px;
+    }
+}
+#who-we-are .beer:nth-child(2) {
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-name: beer1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes beer1 {
+    from {color: black;
+        font-weight:normal;
+    }
+    to {
+        color: #0066CC;
+        font-weight: bold;
+    }
+}
+#who-we-are .beer:nth-child(3) {
+    animation-duration: 5s;
+    animation-name: beer2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+@keyframes beer2 {
+     from {color: black;
+        font-weight:normal;
+    }
+    to {
+        color: #0066CC;
+        font-weight: bold;
+    }
+}
+#who-we-are .beer:nth-child(4) {
+    animation-duration: 5s;
+    animation-name: beer3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+@keyframes beer3 {
+     from {color: black;
+        font-weight:normal;
+    }
+    to {
+        color: #0066CC;
+        font-weight: bold;
+    }
+}
+#who-we-are .beer:nth-child(5) {
+    animation-duration: 5s;
+    animation-name: beer4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 8s;
+}
+@keyframes beer4 {
+     from {color: black;
+        font-weight:normal;
+    }
+    to {
+        color: #0066CC;
+        font-weight: bold;
+    }
+}
+h5 {
+    font-weight: bold;
+}
+#donate {
+    height: 300px;
+    background-image: url(../img/barrels.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 100%;
+}
+#donate p {
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+}
+#programs div:nth-child(3) {
+    border-radius: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+    {
+        #donate a {
+            font-size: 15px;
+        }
+        #who-we-are h2 {
+            font-size: 20px;
+        }
+        #who-we-are p {
+            font-size: 15px;
+        }
+    }
+@media screen and (max-width: 768px)
+    {
+        #landing {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        #who-we-are img {
+            margin-right: 10px;
+        }
+        #donate a {
+            font-size: 10px;
+            padding: 30px 10px;
+        }
+        #info {
+            margin: 0px;
+            padding: 0px;
+        }
+        iframe {
+            width: 100%;
+        }
+        #info p {
+            text-align: center;
+        }
+    
+    }
+            
+
+
